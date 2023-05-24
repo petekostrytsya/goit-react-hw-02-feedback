@@ -42,7 +42,7 @@ export class App extends Component {
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={Object.keys(this.state)}
-            leaveFeedback={this.leaveFeedback}
+            onleaveFeedback={this.leaveFeedback}
           />
         </Section>
 
