@@ -13,7 +13,7 @@ export class App extends Component {
     bad: 0,
   };
 
-  onleaveFeedback = ({ target: { options } }) => {
+  onLeaveFeedback = ({ target: { options } }) => {
     this.setState(prevState => ({
       [options]: prevState[options] + 1,
     }));
@@ -42,7 +42,7 @@ export class App extends Component {
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={Object.keys(this.state)}
-            onleaveFeedback={this.leaveFeedback}
+            onLeaveFeedback={this.leaveFeedback}
           />
         </Section>
 
