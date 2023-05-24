@@ -13,12 +13,6 @@ export class App extends Component {
     bad: 0,
   };
 
-  // onLeaveFeedback = ({ target: { options } }) => {
-  //   this.setState(prevState => ({
-  //     [options]: prevState[options] + 1,
-  //   }));
-  // };
-
   onLeaveFeedback = option => {
     this.setState(prevState => ({
       [option]: prevState[option] + 1,
