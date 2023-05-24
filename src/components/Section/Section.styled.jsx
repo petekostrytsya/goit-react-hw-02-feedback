@@ -2,11 +2,13 @@ import styled from "styled-components";
 
 
 export const SectionTitle = styled.section`
+    margin: 0 auto;
     padding: 20px 0;
-    background-color: #e7e7e7;
+    width: 960px;
     overflow: hidden;
     color: blue;
     text-align: center;
+
 `
 
 export const Title = styled.h1`
