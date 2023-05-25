@@ -39,7 +39,7 @@ export class App extends Component {
 
     return (
       <>
-      <Section title="Please leave feedback">
+<Section title="Please leave feedback">
   <FeedbackOptions
     options={[
       { option: 'good' },
